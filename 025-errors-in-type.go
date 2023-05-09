@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 type ArgError struct {
-	// 用作异常的类要实现 Error 异常
+	// 用作异常的类要实现 Error 方法
 	arg     int
 	message string
 }
